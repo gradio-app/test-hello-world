@@ -1,3 +1,3 @@
 from hello import hello 
 
-INTERFACE = gradio.Interface(fn=h, inputs='textbox', outputs='textbox')
+INTERFACE = gradio.Interface(fn=hello, inputs='textbox', outputs='textbox')

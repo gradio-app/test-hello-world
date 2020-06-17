@@ -3,8 +3,7 @@ import gradio
 import sys
 import time
 
-
-io = gradio.Interface(fn=hello, inputs='textbox', outputs='textbox', server_name='0.0.0.0')
+io = gradio.Interface(fn=hello, inputs='textbox', outputs='textbox', verbose=True, server_name='0.0.0.0')
 
 io.launch()
 

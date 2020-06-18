@@ -1,3 +1,3 @@
 def hello(inp):
-  return inp.replace("hello", "HELLO").replace("Hello", "HELLO")
+  return inp.replace("hello", "BYE").replace("Hello", "BYE")
   
